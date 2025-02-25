@@ -34,12 +34,12 @@ ShowWordCount = true
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 disableSpecial1stPost = false
-disableScrollToTop = false
+disableScrollToTop = true
 comments = false
 hidemeta = false
 hideSummary = false
-showtoc = false
-tocopen = false
+showtoc = true
+tocopen = true
 
   [params.assets]
   favicon = "<link / abs url>"
@@ -97,7 +97,7 @@ SiteVerificationTag = "XYZabc"
   hiddenInSingle = true
 
   [params.editPost]
-  URL = "https://github.com/blog/content"
+  URL = "https://github.com/1Yie/blog/tree/main/content"
   Text = "在 GitHub 上编辑此页"
   appendFilePath = true
 
