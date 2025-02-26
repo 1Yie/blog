@@ -1,0 +1,126 @@
+baseURL: https://blog.ichiyo.in
+languageCode: zh
+defaultContentLanguage: zh
+title: ichiyo's Blog
+theme: PaperMod
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+googleAnalytics: UA-123-45
+pygmentsUseClasses: true
+minify:
+  disableXML: true
+  minifyOutput: true
+params:
+  env: production
+  title: ichiyo's Blog
+  description: Welcome to ichiyo's Blog.
+  keywords:
+    - Blog
+    - ichiyo
+  author: ichiyo
+  images:
+    - <link or path of image for opengraph, twitter-cards>
+  DateFormat: 2006 年 1 月 2 日
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: true
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+  assets:
+    # favicon: <link / abs url>
+    # favicon16x16: <link / abs url>
+    # favicon32x32: <link / abs url>
+    # apple_touch_icon: <link / abs url>
+    # safari_pinned_tab: <link / abs url>
+  label:
+    text: ichiyo's Blog
+    # icon: /apple-touch-icon.png
+    iconHeight: 35
+  profileMode:
+    enabled: false
+    title: ExampleSite
+    subtitle: This is subtitle
+    # imageUrl: <img location>
+    imageWidth: 120
+    imageHeight: 120
+    # imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: >
+      - ✨ 欢迎来到 ichiyo's Blog
+      
+      - 🎉 欢迎访问寒舍
+  socialIcons:
+    - name: twitter
+      url: https://x.com/IchiyoNico
+    - name: github
+      url: https://github.com/1Yie
+    - name: rss
+      url: index.xml
+  analytics:
+    google:
+      SiteVerificationTag: XYZabc
+    bing:
+      SiteVerificationTag: XYZabc
+    yandex:
+      SiteVerificationTag: XYZabc
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+  editPost:
+    URL: https://github.com/1Yie/blog/tree/main/content
+    Text: 在 GitHub 上编辑此页
+    appendFilePath: true
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
+menu:
+  main:
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 10
+    - identifier: categories
+      name: 归档
+      url: /categories/
+      weight: 20
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 30
+    - identifier: main-site
+      name: 主站
+      url: https://ichiyo.in
+      weight: 40
+markup:
+  highlight:
+    noClasses: false
