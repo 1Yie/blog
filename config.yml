@@ -7,7 +7,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-googleAnalytics: UA-123-45
+# googleAnalytics: UA-123-45
 pygmentsUseClasses: true
 minify:
   disableXML: true
@@ -67,7 +67,7 @@ params:
     Title: Hi there 👋
     Content: >
       - ✨ 欢迎来到 ichiyo's Blog
-      
+
       - 🎉 欢迎访问寒舍
   socialIcons:
     - name: twitter
