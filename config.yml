@@ -19,7 +19,7 @@ params:
   keywords:
     - Blog
     - ichiyo
-  author: ichiyo
+  author: Me, You
   images:
     - <link or path of image for opengraph, twitter-cards>
   DateFormat: 2006 年 1 月 2 日
@@ -34,7 +34,7 @@ params:
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
-  disableScrollToTop: true
+  disableScrollToTop: false
   comments: false
   hidemeta: false
   hideSummary: false
